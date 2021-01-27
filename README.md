@@ -122,3 +122,11 @@ Gdy np. jesteśmy na branch master to jeśli użyjemy komendy merge to branch ma
 
 `git stash clear`
 
+### Vim
+Wyjście bez zapisania zmian 
+
+`:q!`
+
+Zapisanie w nowym pliku o nazwie "plik"
+
+`:w plik`
