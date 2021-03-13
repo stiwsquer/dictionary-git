@@ -122,7 +122,7 @@ Gdy np. jesteśmy na branch master to jeśli użyjemy komendy merge to branch ma
 
 `git stash clear`
 
-### Vim
+# Vim
 Wyjście bez zapisania zmian 
 
 `:q!`
@@ -130,3 +130,87 @@ Wyjście bez zapisania zmian
 Zapisanie w nowym pliku o nazwie "plik"
 
 `:w plik`
+
+Zapisanie i wyjście
+
+`:wq`
+
+vim modes:
+`i`       `insert`
+`:`       `command`
+`v`       `visual`
+
+Poruszanie się po tekście
+
+`Za pomomocą strzałek` lub `H J K L`
+
+Usuwanie pojedyńczego znaku
+
+`x`
+
+Usuwanie całej linii
+
+ `dd`
+ 
+ Cofni (Undo)
+ 
+ `uu`
+ 
+ Wyświetlanie numery linii
+ 
+ `:set number`
+ 
+ Nawigowanie do wybranej linii (np. do drugiej linii)
+ 
+ `:2`
+ 
+ Przejście od trybu insert
+ 
+ `i`      - przed kursorem 
+ `a`      - za kursorem 
+ `A`      - koniec linii
+ `I`      - początek linii
+ `L`      - konic pliku
+ 
+ Wyjscie z trypy inset
+ 
+ `esc`
+ 
+ Wklejanie 
+ 
+ `+p`
+ 
+ Uruchamianie programu 
+ 
+ `:!`
+ 
+ Wprowadzanie zmian (command mode)
+
+ `r`        - zamiana pojedyńczego znaku 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
